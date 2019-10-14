@@ -1,0 +1,20 @@
+Problem statement
+
+Dropping bars
+You are given a grid of size N * M where the top left square has coordinate
+(1,1) and bottom right square has coordinate (N,M). You are given a coordinate(X,Y)
+and you have rectangular bars of size L * B
+You are dropping these bars randomly anywhere on the grid (the bar should be
+inside the boundaries of the grid) one after the other until one falls on (X,Y).
+Calculate the number of bars that are required to complete this action.
+Input format
+First line: T (number of test cases)
+For each test case: Six space-separated integers N, M, L, B, X, and Y
+Output format
+Print the expected number of bars correctly up to exactly 6 places after the
+decimal.
+Constraints 
+1<=T<=100
+1<=N,M<=10000
+1<=L,Y<=N
+1<=B,X<=M
